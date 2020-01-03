@@ -2,17 +2,34 @@
   box-sizing: border-box;
 }
 
-header {
-  text-align: center;
-  justify-content: space-around;
-}
-
 body {
-  font-family: "Roboto", sans-serif;
+    font-family:"Open Sans";
 }
 
 main {
-  margin: 3%;
+    margin: 3%;
+}
+
+header {
+  text-align: center;
+  justify-content: space-around;
+  font-family:"Libre Baskerville", sans-serif bold;
+}
+
+h2, h3 {
+   text-align: center;
+   font-family:"Libre Baskerville",sans-serif bold;
+}
+
+nav {
+    background-color: darkblue;
+    color: white;
+    vertical-align: middle;
+    padding: 15px;
+    margin-bottom: 5px;
+    justify-content: right;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 ul {
@@ -27,23 +44,10 @@ ul {
   flex-shrink: 1;
 }
 
-nav {
-  background-color: darkblue;
-  color: white;
-  vertical-align: middle;
-  padding: 15px;
-  margin-bottom: 5px;
-  text-align: center;
-  justify-content: right;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .project {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   border-style: solid;
   border-color: darkblue;
   border-width: 3px;
@@ -53,9 +57,17 @@ nav {
   margin-bottom: 5px;
 }
 
+#about-me {
+    text-align: left;
+}
+
+#app-examples {
+    align-items: center;
+}
+
 .screenshots {
-  width:50%;
-  height:auto;
+  width: 70%;
+  height: auto;
 }
 
 footer {
